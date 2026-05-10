@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables in HTML</title>
+    <style>
+        table
+        {
+            border: 2px solid rgb(0, 191, 255);
+        }
+
+        td, th
+        {
+            border: 1px solid rgb(12, 12, 12);
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Calender</caption>
+        <tr>
+                <th colspan="4">Date</th>
+        </tr>
+                
+        <tr>
+            <td colspan="2">Day</td>
+            <td colspan="2">Year</td>
+        </tr>
+            
+        <tr>
+            <td>1</td>
+            <td rowspan="2">0</td>
+            <td rowspan="2">20</td>
+            <td>21</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>22</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">June</td>
+            <td colspan="2">2000</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">July</td>
+            <td colspan="2">2001</td>
+        </tr>
+    </table>
+</body>
+</html>
