@@ -1,0 +1,31 @@
+
+h1
+{
+    text-align: center;
+}
+
+p
+{
+    font-size: larger;
+    background-color: cyan;
+}
+
+#Cities 
+{
+    color: rgb(174, 0, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.A
+{
+    color: rgb(0, 240, 20);
+    font-size: medium;
+}
+
+.B
+{
+    color: rgb(252, 7, 7);
+    font-size: medium;
+}
