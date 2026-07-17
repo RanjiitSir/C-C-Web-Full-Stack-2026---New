@@ -1,0 +1,24 @@
+/// Div Of 2 Numbers
+
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+    int N1 = 0, N2 = 0;
+    float Res = 0;
+
+    printf("\n\t Welcome To Calculator Program \n");
+
+    printf("\n Enter 1st Number : ");
+    scanf("%d",&N1);
+    printf("\n Enter 2nd Number : ");
+    scanf("%d",&N2);
+
+    Res = N1 / N2;
+
+    printf("\n Division => %d / %d = %0.2f !", N1, N2, Res);
+
+    getch();
+    return 0;
+}
